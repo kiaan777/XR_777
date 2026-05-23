@@ -1,0 +1,117 @@
+{
+  "associatedLayout": "Menu",
+  "name": "LevelIcon",
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Level",
+      "persistentUuid": "9046b624-7d5c-46b1-8b68-e97ab570976e",
+      "width": 0,
+      "x": 15,
+      "y": 0,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Level",
+          "type": "string",
+          "value": "-1"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 48,
+      "layer": "",
+      "name": "ItemBackground",
+      "persistentUuid": "c30ebb6f-a89e-43a5-93bc-47815e7a9ef2",
+      "width": 48,
+      "x": 0,
+      "y": 0,
+      "zOrder": 4,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Level",
+          "type": "string",
+          "value": "-1"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 24,
+      "layer": "",
+      "name": "Stars",
+      "persistentUuid": "0339513f-395c-40bc-abf8-25b3369376cc",
+      "width": 48,
+      "x": 0,
+      "y": 32,
+      "zOrder": 6,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Level",
+          "type": "string",
+          "value": "-1"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 30,
+      "layer": "",
+      "name": "Lock",
+      "persistentUuid": "13858737-5581-4f84-9b5b-ee34258ebcfc",
+      "width": 24,
+      "x": 12,
+      "y": 7,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Level",
+          "type": "string",
+          "value": "-1"
+        }
+      ]
+    }
+  ],
+  "editionSettings": {
+    "grid": true,
+    "gridType": "rectangular",
+    "gridWidth": 16,
+    "gridHeight": 16,
+    "gridDepth": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridOffsetZ": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": true,
+    "zoomFactor": 2.32,
+    "windowMask": false,
+    "selectedLayer": "",
+    "gameEditorMode": "instances-editor"
+  }
+}

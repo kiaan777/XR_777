@@ -1,0 +1,289 @@
+{
+  "associatedLayout": "Level1",
+  "name": "LevelTraps",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Core::Entity::IsVulnerable"
+          },
+          "parameters": [
+            "Player",
+            "LivingObject",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Core::ActiveObject::IsActive"
+          },
+          "parameters": [
+            "Trap",
+            "ActiveObject",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "Trap",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Core::Entity::Kill"
+          },
+          "parameters": [
+            "Player",
+            "LivingObject",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Spikes"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "Core::ActiveObject::IsActive"
+          },
+          "parameters": [
+            "Spikes",
+            "ActiveObject",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Animation"
+          },
+          "parameters": [
+            "Spikes",
+            "!=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ChangeAnimation"
+          },
+          "parameters": [
+            "Spikes",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Core::ActiveObject::IsActive"
+          },
+          "parameters": [
+            "Spikes",
+            "ActiveObject",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Animation"
+          },
+          "parameters": [
+            "Spikes",
+            "!=",
+            "1"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ChangeAnimation"
+          },
+          "parameters": [
+            "Spikes",
+            "=",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "SpikedBall"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Chain",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "CreateByName"
+              },
+              "parameters": [
+                "",
+                "SpikedBall",
+                "\"SpikedBall\"",
+                "Chain.X() + Chain.Width() / 2",
+                "Chain.Y() + Chain.Height() - 4",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::LinkObjects"
+              },
+              "parameters": [
+                "",
+                "SpikedBall",
+                "Chain"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "SpikedBall",
+                "-",
+                "SpikedBall.Width() / 2"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "SpikedBall",
+                "=",
+                "Chain.ZOrder() + 1"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Chain",
+                    "RotatingObject.Direction",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Core::RotatingObject::SetDirection"
+                  },
+                  "parameters": [
+                    "Chain",
+                    "RotatingObject",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "Chain",
+      "conditions": [
+        {
+          "type": {
+            "value": "Core::ActiveObject::IsActive"
+          },
+          "parameters": [
+            "Chain",
+            "ActiveObject",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "LinkedObjects::PickObjectsLinkedTo"
+          },
+          "parameters": [
+            "",
+            "SpikedBall",
+            "Chain"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreAutour"
+          },
+          "parameters": [
+            "SpikedBall",
+            "Chain",
+            "Chain.Height() - 4",
+            "Chain.Angle() + 90"
+          ]
+        }
+      ]
+    }
+  ]
+}

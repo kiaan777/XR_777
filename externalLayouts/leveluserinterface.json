@@ -1,0 +1,94 @@
+{
+  "associatedLayout": "Level1",
+  "name": "LevelUserInterface",
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "GUI",
+      "name": "ProgressBarBackground",
+      "persistentUuid": "b8e17a33-45bb-48a2-b362-5fdb5d139c11",
+      "width": 208,
+      "x": 376,
+      "y": 6,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "GUI",
+      "name": "LivesIndicator",
+      "persistentUuid": "3aa6376e-ab69-4a11-b5e1-8982eec1e178",
+      "width": 32,
+      "x": 16,
+      "y": 496,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 24,
+      "layer": "GUI",
+      "name": "Icon",
+      "persistentUuid": "0f5d43b9-cc57-4154-8f1c-c51f4ef16e63",
+      "width": 24,
+      "x": 908,
+      "y": 27,
+      "zOrder": 1,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 3
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 48,
+      "layer": "GUI",
+      "name": "IconBackground",
+      "persistentUuid": "976a4a42-13d3-4fe9-92cf-8f16fde7a89e",
+      "width": 48,
+      "x": 896,
+      "y": 16,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Action",
+          "type": "string",
+          "value": "QuitScene"
+        }
+      ]
+    }
+  ],
+  "editionSettings": {
+    "grid": true,
+    "gridType": "rectangular",
+    "gridWidth": 16,
+    "gridHeight": 16,
+    "gridDepth": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridOffsetZ": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": true,
+    "zoomFactor": 1.048,
+    "windowMask": false,
+    "selectedLayer": "",
+    "gameEditorMode": "instances-editor"
+  }
+}

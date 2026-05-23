@@ -1,0 +1,342 @@
+{
+  "associatedLayout": "Level1",
+  "name": "LevelUserInterface",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+          },
+          "parameters": [
+            "",
+            "\"LevelUserInterface\"",
+            "0",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "Scene.Current.Coin",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "Scene.Current.Enemy",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "Scene.Current.Heart",
+            "=",
+            "GlobalVariable(Player.Lives)"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "Scene.Current.Skull",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "Scene.Total.Coin",
+            "=",
+            "Count(Coin)"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "Scene.Total.Enemy",
+            "=",
+            "Count(Enemy)"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "Scene.Total.Heart",
+            "=",
+            "Count(Heart) + GlobalVariable(Player.Lives)"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "Scene.Total.Skull",
+            "=",
+            "Count(Skull)"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "CameraEnd",
+            "=",
+            "0"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Object",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "CameraEnd",
+                "=",
+                "max(Variable(CameraEnd), Object.X() + Object.Width())"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Transitions"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "TiledSpriteObject::Width"
+          },
+          "parameters": [
+            "LivesIndicator",
+            "=",
+            "LivesIndicator.Height() * GlobalVariable(Scene.Current.Heart)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "LevelProgress"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisBouton"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Core::Button::IsMouseOver"
+              },
+              "parameters": [
+                "IconBackground",
+                "Button",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "IconBackground",
+                    "Action",
+                    "=",
+                    "\"QuitScene\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Menu\"",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Up"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlatformBehavior::SimulateJumpKey"
+          },
+          "parameters": [
+            "Player",
+            "PlatformerObject"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "Player",
+            "ClampedX",
+            "=",
+            "min(max(Player.X(), SceneWindowWidth() / 2), Variable(CameraEnd) - SceneWindowWidth() / 2)"
+          ]
+        },
+        {
+          "type": {
+            "value": "CameraX"
+          },
+          "parameters": [
+            "",
+            "=",
+            "Player.Variable(ClampedX)",
+            "\"\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "CameraX"
+          },
+          "parameters": [
+            "",
+            "=",
+            "Player.Variable(ClampedX) * 0.8",
+            "\"Background4\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "CameraX"
+          },
+          "parameters": [
+            "",
+            "=",
+            "Player.Variable(ClampedX) * 0.4",
+            "\"Background3\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "CameraX"
+          },
+          "parameters": [
+            "",
+            "=",
+            "Player.Variable(ClampedX) * 0.2",
+            "\"Background2\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "CameraX"
+          },
+          "parameters": [
+            "",
+            "=",
+            "Player.Variable(ClampedX) * 0.1",
+            "\"Background1\"",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

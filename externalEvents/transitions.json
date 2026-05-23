@@ -1,0 +1,173 @@
+{
+  "associatedLayout": "Menu",
+  "name": "Transitions",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Transition",
+            "0",
+            "0",
+            "\"GUI\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TiledSpriteObject::Width"
+          },
+          "parameters": [
+            "Transition",
+            "=",
+            "SceneWindowWidth()"
+          ]
+        },
+        {
+          "type": {
+            "value": "TiledSpriteObject::Height"
+          },
+          "parameters": [
+            "Transition",
+            "=",
+            "SceneWindowHeight()"
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "Transition",
+            "=",
+            "9999"
+          ]
+        },
+        {
+          "type": {
+            "value": "Core::Transition::ChangeTransition"
+          },
+          "parameters": [
+            "Transition",
+            "Transition",
+            "\"FadeOut\"",
+            "2",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "Transition",
+            "Transition",
+            "yes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "VarObjetTxt"
+          },
+          "parameters": [
+            "Transition",
+            "ToScene",
+            "=",
+            "\"_\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVolumeMusicCanal"
+          },
+          "parameters": [
+            "",
+            "1",
+            "-",
+            "GlobalVariable(Settings.MusicVolume) * TimeDelta() / Transition.Transition::GetDuration()"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Core::Transition::IsFinished"
+          },
+          "parameters": [
+            "Transition",
+            "Transition",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "Transition",
+            "Transition",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "VarObjetTxt"
+              },
+              "parameters": [
+                "Transition",
+                "ToScene",
+                "=",
+                "\"_\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "Transition.VariableString(ToScene)",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

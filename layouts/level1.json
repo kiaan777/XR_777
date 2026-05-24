@@ -9,7 +9,7 @@
   "title": "",
   "v": 222,
   "uiSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 16,
     "gridHeight": 16,
@@ -19,7 +19,7 @@
     "gridOffsetZ": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": true,
+    "snap": false,
     "zoomFactor": 1.01381386193561,
     "windowMask": false,
     "selectedLayer": "",
@@ -6809,8 +6809,8 @@
         },
         {
           "name": "Platform",
+          "platformType": "Jumpthru",
           "type": "PlatformBehavior::PlatformBehavior",
-          "platformType": "NormalPlatform",
           "canBeGrabbed": true,
           "yGrabOffset": 0
         }

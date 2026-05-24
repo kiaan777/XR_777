@@ -1304,7 +1304,7 @@
           },
           "parameters": [
             "",
-            "assets\\sounds\\music\\tribal.mp3",
+            "assets\\sounds\\sound_efx\\Skybound Sprint2.mp3",
             "1",
             "",
             "GlobalVariable(Settings.MusicVolume)",

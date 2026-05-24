@@ -128,7 +128,7 @@
                       },
                       "parameters": [
                         "",
-                        "assets\\sounds\\die.ogg",
+                        "assets\\sounds\\sound_efx\\death.wav",
                         "",
                         "25",
                         "1"
@@ -261,9 +261,9 @@
                       },
                       "parameters": [
                         "",
-                        "assets\\sounds\\game-over.wav",
+                        "assets\\sounds\\sound_efx\\Game-Ova.mp3",
                         "",
-                        "100",
+                        "25",
                         "1"
                       ]
                     }
@@ -350,7 +350,7 @@
                       },
                       "parameters": [
                         "",
-                        "assets\\sounds\\respawn.wav",
+                        "assets\\sounds\\sound_efx\\respawn.wav",
                         "",
                         "25",
                         "1"
@@ -482,7 +482,7 @@
                       },
                       "parameters": [
                         "",
-                        "assets\\sounds\\jump.wav",
+                        "assets\\sounds\\sound_efx\\jump.wav",
                         "",
                         "20",
                         "1"
@@ -1142,9 +1142,9 @@
                               },
                               "parameters": [
                                 "",
-                                "assets\\sounds\\activate-checkpoint.ogg",
+                                "assets\\sounds\\sound_efx\\activate-checkpoint.wav",
                                 "",
-                                "20",
+                                "25",
                                 "1"
                               ]
                             }
@@ -1255,9 +1255,9 @@
                               },
                               "parameters": [
                                 "",
-                                "assets\\sounds\\winner.wav",
+                                "assets\\sounds\\sound_efx\\winner.wav",
                                 "",
-                                "100",
+                                "15",
                                 "1"
                               ]
                             }
@@ -1277,7 +1277,6 @@
           "colorG": 211,
           "colorR": 126,
           "creationTime": 0,
-          "folded": true,
           "name": "Button",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -1650,7 +1649,6 @@
       "colorG": 211,
       "colorR": 126,
       "creationTime": 0,
-      "folded": true,
       "name": "Collectables",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1743,7 +1741,7 @@
                       },
                       "parameters": [
                         "",
-                        "assets\\sounds\\pickup-coin.ogg",
+                        "assets\\sounds\\sound_efx\\pickup-coin.wav",
                         "",
                         "25",
                         "1"
@@ -1825,7 +1823,7 @@
                       },
                       "parameters": [
                         "",
-                        "assets\\sounds\\pickup-heart.wav",
+                        "assets\\sounds\\sound_efx\\pickup-heart.wav",
                         "",
                         "25",
                         "1"
@@ -1919,7 +1917,7 @@
                       },
                       "parameters": [
                         "",
-                        "assets\\sounds\\pickup-coin.ogg",
+                        "assets\\sounds\\sound_efx\\skull.wav",
                         "",
                         "25",
                         "1"

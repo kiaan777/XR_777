@@ -11680,8 +11680,8 @@
         },
         {
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "platformType": "NormalPlatform",
           "canBeGrabbed": true,
           "yGrabOffset": 0
         }

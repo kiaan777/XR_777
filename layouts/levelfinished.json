@@ -808,7 +808,7 @@
                   },
                   "parameters": [
                     "",
-                    "assets\\sounds\\music\\death-is-just-another-path.ogg",
+                    "assets\\sounds\\sound_efx\\endgame.mp3",
                     "1",
                     "yes",
                     "GlobalVariable(Settings.MusicVolume)",
@@ -877,7 +877,7 @@
                   },
                   "parameters": [
                     "",
-                    "assets\\sounds\\music\\tribal.mp3",
+                    "assets\\sounds\\sound_efx\\menu.mp3",
                     "1",
                     "yes",
                     "GlobalVariable(Settings.MusicVolume)",

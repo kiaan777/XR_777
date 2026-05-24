@@ -2249,6 +2249,146 @@
         "name": "assets\\items\\coin2",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/sounds/sound_efx/death.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\sound_efx\\death.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sounds/sound_efx/Game-Ova.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\sound_efx\\Game-Ova.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sounds/sound_efx/respawn.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\sound_efx\\respawn.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sounds/sound_efx/jump.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\sound_efx\\jump.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sounds/sound_efx/winner.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\sound_efx\\winner.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sounds/sound_efx/pickup-coin.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\sound_efx\\pickup-coin.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sounds/sound_efx/pickup-heart.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\sound_efx\\pickup-heart.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sounds/sound_efx/skull.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\sound_efx\\skull.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sounds/sound_efx/activate-checkpoint.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\sound_efx\\activate-checkpoint.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sounds/sound_efx/endgame.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\sound_efx\\endgame.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sounds/sound_efx/menu.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\sound_efx\\menu.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sounds/sound_efx/Skybound Sprint2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\sound_efx\\Skybound Sprint2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sounds/sound_efx/Skybound Sprint.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\sound_efx\\Skybound Sprint.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sounds/sound_efx/Jump1.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\sound_efx\\Jump1.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ]
   },

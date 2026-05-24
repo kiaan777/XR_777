@@ -214,7 +214,7 @@
                   },
                   "parameters": [
                     "",
-                    "assets\\sounds\\kill.ogg",
+                    "assets\\sounds\\sound_efx\\Jump1.wav",
                     "2",
                     "25",
                     "25",

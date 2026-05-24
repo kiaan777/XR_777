@@ -116,7 +116,7 @@
                   },
                   "parameters": [
                     "",
-                    "assets\\sounds\\music\\revenge-of-the-jungle.ogg",
+                    "assets\\sounds\\sound_efx\\Skybound Sprint2.mp3",
                     "1",
                     "",
                     "GlobalVariable(Settings.MusicVolume)",
@@ -146,7 +146,7 @@
                   },
                   "parameters": [
                     "",
-                    "assets\\sounds\\music\\jungle-jumpin.mp3",
+                    "assets\\sounds\\sound_efx\\Skybound Sprint.mp3",
                     "1",
                     "",
                     "GlobalVariable(Settings.MusicVolume)",

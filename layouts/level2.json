@@ -1,15 +1,15 @@
 {
-  "b": 203,
+  "b": 211,
   "disableInputWhenNotFocused": true,
   "mangledName": "Level2",
   "name": "Level2",
-  "r": 174,
+  "r": 219,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 222,
+  "v": 207,
   "uiSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 16,
     "gridHeight": 16,
@@ -19,8 +19,8 @@
     "gridOffsetZ": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": true,
-    "zoomFactor": 1.1329574817679429,
+    "snap": false,
+    "zoomFactor": 0.11337185062839752,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -147,16 +147,7 @@
       "name": "Object",
       "objects": [
         {
-          "name": "Parallax1"
-        },
-        {
-          "name": "Parallax2"
-        },
-        {
-          "name": "Parallax3"
-        },
-        {
-          "name": "Parallax4"
+          "name": "Layer05sky"
         },
         {
           "name": "Adventurer"
@@ -408,60 +399,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 540,
-      "layer": "Background4",
-      "locked": true,
-      "name": "Parallax4",
-      "persistentUuid": "b8936919-0d30-487b-b34d-bf9b84fee1a3",
-      "width": 4960,
-      "x": -500,
-      "y": 0,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
+      "depth": 0,
       "height": 540,
       "layer": "Background1",
       "locked": true,
-      "name": "Parallax1",
+      "name": "Layer05sky",
       "persistentUuid": "51b53969-5d8b-4194-bfeb-71947fa5d908",
-      "width": 4960,
-      "x": -1500,
-      "y": 0,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 540,
-      "layer": "Background2",
-      "locked": true,
-      "name": "Parallax2",
-      "persistentUuid": "d3c75b6a-1fff-42ca-a750-989b3ac867e4",
-      "width": 4960,
-      "x": -1500,
-      "y": 0,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 540,
-      "layer": "Background3",
-      "locked": true,
-      "name": "Parallax3",
-      "persistentUuid": "5a4fc705-7343-4566-81f3-53d2c1655ab0",
-      "width": 4960,
+      "width": 6000,
       "x": -1500,
       "y": 0,
       "zOrder": 0,
@@ -8036,49 +7980,79 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 3.4090909090909087,
+      "height": 300,
+      "layer": "Background2",
+      "name": "Layer4FarBuildings",
+      "persistentUuid": "7a2bacd6-842c-4c6e-9c63-4775f571e8bd",
+      "width": 6000,
+      "x": -1500,
+      "y": 200,
+      "zOrder": 92,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 300,
+      "layer": "Background3",
+      "name": "Layer03_Close_Buildings",
+      "persistentUuid": "b9f8d02e-82df-44b0-80a1-70646b9d4e26",
+      "width": 6000,
+      "x": -1500,
+      "y": 300,
+      "zOrder": 93,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 14.457831325301205,
+      "height": 300,
+      "layer": "Background4",
+      "name": "Layer02_ground_fence",
+      "persistentUuid": "ccb7177a-d9a7-41d0-a9ea-f0da9bf8d64c",
+      "width": 6000,
+      "x": -1500,
+      "y": 400,
+      "zOrder": 94,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 10.638297872340425,
+      "height": 200,
+      "layer": "",
+      "name": "Layer01_Water_in_front",
+      "persistentUuid": "201c85ce-4d23-4657-b2d7-19a1e89d5519",
+      "width": 6000,
+      "x": -1500,
+      "y": 500,
+      "zOrder": 95,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
     {
       "assetStoreId": "",
       "height": 540,
-      "name": "Parallax1",
+      "name": "Layer05sky",
       "persistentUuid": "1e15ad80-10f1-4682-a76e-1724ba4fe068",
-      "texture": "bg05.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 960,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 540,
-      "name": "Parallax2",
-      "texture": "bg06.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 960,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 540,
-      "name": "Parallax3",
-      "texture": "bg07.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 960,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 540,
-      "name": "Parallax4",
-      "persistentUuid": "4a3ee0db-a55b-4cf1-adea-3e1cfdf9f64c",
-      "texture": "bg08.png",
+      "texture": "Layer7.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 960,
       "variables": [],
@@ -11048,6 +11022,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "BackgroundCorner",
+      "persistentUuid": "f3dcddb4-08d9-472f-b3c0-011dc301097a",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -11855,6 +11830,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Bat",
+      "persistentUuid": "d5dcd227-84ad-4bb5-80c9-8ed1759dffde",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -14258,25 +14234,82 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Layer02_ground_fence",
+      "persistentUuid": "b5e86a0a-cf21-4744-9da2-6aeafd5db698",
+      "texture": "Layer2.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Layer4FarBuildings",
+      "persistentUuid": "8390cafd-29ff-441e-9d87-5f6878c7a3bd",
+      "texture": "Layer4.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Layer03_Close_Buildings",
+      "persistentUuid": "02484772-f7d7-415a-b9f7-e3742f759175",
+      "texture": "Layer3.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "NewTiledSprite2",
+      "persistentUuid": "890ce59c-849b-430c-8834-aee4f3835a5c",
+      "texture": "",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Layer01_Water_in_front",
+      "persistentUuid": "4b399020-ed4f-42fb-9472-f2a92649f8dc",
+      "texture": "Layer1.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "Parallax1"
-      },
-      {
-        "objectName": "Parallax2"
-      },
-      {
-        "objectName": "Parallax3"
-      },
-      {
-        "objectName": "Parallax4"
+        "objectName": "Layer05sky"
       },
       {
         "objectName": "Adventurer"
+      },
+      {
+        "objectName": "NewTiledSprite2"
+      },
+      {
+        "objectName": "Layer4FarBuildings"
       },
       {
         "objectName": "PlatformVertical"
@@ -14394,6 +14427,15 @@
       },
       {
         "objectName": "Flag"
+      },
+      {
+        "objectName": "Layer02_ground_fence"
+      },
+      {
+        "objectName": "Layer01_Water_in_front"
+      },
+      {
+        "objectName": "Layer03_Close_Buildings"
       }
     ]
   },

@@ -1,13 +1,13 @@
 {
-  "b": 203,
+  "b": 155,
   "disableInputWhenNotFocused": true,
   "mangledName": "Level1",
   "name": "Level1",
-  "r": 174,
+  "r": 155,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 222,
+  "v": 155,
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.01381386193561,
+    "zoomFactor": 0.12434828530396612,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -283,18 +283,6 @@
         },
         {
           "name": "Transition"
-        },
-        {
-          "name": "Parallax1"
-        },
-        {
-          "name": "Parallax2"
-        },
-        {
-          "name": "Parallax3"
-        },
-        {
-          "name": "Parallax4"
         }
       ]
     },
@@ -402,70 +390,6 @@
           "value": 0
         }
       ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 544,
-      "layer": "Background4",
-      "locked": true,
-      "name": "Parallax4",
-      "persistentUuid": "d90d30a3-0c89-4762-8ab9-21eac20a15df",
-      "width": 3936,
-      "x": -500,
-      "y": 0,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 540,
-      "layer": "Background1",
-      "locked": true,
-      "name": "Parallax1",
-      "persistentUuid": "be2e82ff-b951-417e-bbe6-3782e9ef2fdb",
-      "width": 4960,
-      "x": -1500,
-      "y": 0,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 540,
-      "layer": "Background2",
-      "locked": true,
-      "name": "Parallax2",
-      "persistentUuid": "0ca697cb-009b-4433-ae05-ba8696d9395e",
-      "width": 4960,
-      "x": -1500,
-      "y": 0,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 540,
-      "layer": "Background3",
-      "locked": true,
-      "name": "Parallax3",
-      "persistentUuid": "0e051868-f2d1-4333-82ad-b103bded1dcd",
-      "width": 4960,
-      "x": -1500,
-      "y": 0,
-      "zOrder": 0,
-      "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
@@ -3030,57 +2954,26 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 748,
+      "keepRatio": true,
+      "layer": "Background4",
+      "name": "Parallex_neon",
+      "persistentUuid": "079a0e7e-cc25-4d6f-8270-39f484f727a2",
+      "width": 3981,
+      "x": -326,
+      "y": -179,
+      "zOrder": 99,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
-    {
-      "assetStoreId": "",
-      "height": 540,
-      "name": "Parallax1",
-      "persistentUuid": "ca61b30a-50a8-43c7-be9e-db1c50a18429",
-      "texture": "bg01.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 960,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 540,
-      "name": "Parallax2",
-      "persistentUuid": "0f61331b-f7df-47f0-a7a1-b93a45ff7bfe",
-      "texture": "bg02.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 960,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 540,
-      "name": "Parallax3",
-      "persistentUuid": "c5091366-c872-448f-9ed6-d0ae1316b385",
-      "texture": "bg03.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 960,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 540,
-      "name": "Parallax4",
-      "persistentUuid": "c3974589-0f4e-4fab-a3bf-9f9628f88816",
-      "texture": "bg04.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 960,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
     {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
@@ -5682,6 +5575,7 @@
       "assetStoreId": "",
       "height": 16,
       "name": "GroundFull",
+      "persistentUuid": "d64320c8-a534-4315-bf74-8359984177a0",
       "texture": "assets\\tiles\\platform-027.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 16,
@@ -6809,8 +6703,8 @@
         },
         {
           "name": "Platform",
-          "platformType": "Jumpthru",
           "type": "PlatformBehavior::PlatformBehavior",
+          "platformType": "Jumpthru",
           "canBeGrabbed": true,
           "yGrabOffset": 0
         }
@@ -9735,23 +9629,71 @@
         "lineHeight": 0,
         "color": "248;231;28"
       }
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "DesertDusk4",
+      "persistentUuid": "f696ab25-852d-4852-960f-34ce95167a1f",
+      "texture": "Parallax Desert Dusk4.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "DesertDusk3",
+      "persistentUuid": "efc6354d-9895-486d-8cfc-1353e96243fa",
+      "texture": "Parallax Desert Dusk3.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "DesertDusk2",
+      "persistentUuid": "d9ab84ae-0d41-4bb4-b3cb-8341f87e4977",
+      "texture": "Parallax Desert Dusk2.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "DesertDusk1",
+      "persistentUuid": "7192717f-45da-4d46-b4b8-72f28864566e",
+      "texture": "Parallax Desert Dusk.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Parallex_neon",
+      "persistentUuid": "2bcbe930-84a8-4dcb-be27-96de3e0a2480",
+      "texture": "Parallex neon complete.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
-      {
-        "objectName": "Parallax1"
-      },
-      {
-        "objectName": "Parallax2"
-      },
-      {
-        "objectName": "Parallax3"
-      },
-      {
-        "objectName": "Parallax4"
-      },
       {
         "objectName": "Adventurer"
       },
@@ -9904,6 +9846,21 @@
       },
       {
         "objectName": "Tutorial9"
+      },
+      {
+        "objectName": "DesertDusk4"
+      },
+      {
+        "objectName": "DesertDusk3"
+      },
+      {
+        "objectName": "DesertDusk2"
+      },
+      {
+        "objectName": "DesertDusk1"
+      },
+      {
+        "objectName": "Parallex_neon"
       }
     ]
   },

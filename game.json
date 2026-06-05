@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 261,
+    "build": 269,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -18,6 +18,7 @@
     "scaleMode": "nearest",
     "sizeOnStartupMode": "",
     "templateSlug": "",
+    "useDeprecatedZeroAsDefaultStringVariable": true,
     "useDeprecatedZeroAsDefaultZOrder": true,
     "version": "1.0.0",
     "name": "JunglePlatformer",
@@ -54,7 +55,6 @@
     "authorUsernames": [],
     "categories": [],
     "playableDevices": [
-      "mobile",
       "mobile"
     ],
     "extensionProperties": [],
@@ -2389,6 +2389,574 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "922575.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "922575.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "922576.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "922576.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "841718.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "841718.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Layer1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Layer1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Night City.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Night City.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Layer5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Layer5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Layer4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Layer4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Layer3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Layer3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Layer2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Layer2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Layer6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Layer6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Layer7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Layer7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Parallax Desert Dusk4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Parallax Desert Dusk4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Parallax Desert Dusk3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Parallax Desert Dusk3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Parallax Desert Dusk2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Parallax Desert Dusk2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Parallax Desert Dusk.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Parallax Desert Dusk.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Parallex neon complete.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Parallex neon complete.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player/striker/die-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\striker\\die-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/player/striker/die-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\striker\\die-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/player/striker/die-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\striker\\die-10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/player/striker/die-11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\striker\\die-11.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/player/striker/die-12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\striker\\die-12.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/player/striker/die-13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\striker\\die-13.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/player/striker/die-14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\striker\\die-14.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/player/striker/die-15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\striker\\die-15.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/player/striker/die-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\striker\\die-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/player/striker/die-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\striker\\die-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/player/striker/die-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\striker\\die-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/player/striker/die-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\striker\\die-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/player/striker/die-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\striker\\die-6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/player/striker/die-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\striker\\die-7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/player/striker/die-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\striker\\die-8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/player/striker/die-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\striker\\die-9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/player/striker/gethit-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\striker\\gethit-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/player/striker/gethit-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\striker\\gethit-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/player/striker/gethit-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\striker\\gethit-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/player/striker/gethit-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\striker\\gethit-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/player/striker/idle-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\striker\\idle-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/player/striker/idle-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\striker\\idle-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/player/striker/idle-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\striker\\idle-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/player/striker/idle-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\striker\\idle-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/player/striker/idle-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\striker\\idle-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/player/striker/idle-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\striker\\idle-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/player/striker/idle-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\striker\\idle-6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/player/striker/idle-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\striker\\idle-7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/player/striker/jump-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\striker\\jump-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/player/striker/jump-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\striker\\jump-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/player/striker/jump-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\striker\\jump-10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/player/striker/jump-11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\striker\\jump-11.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/player/striker/jump-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\striker\\jump-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/player/striker/jump-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\striker\\jump-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/player/striker/jump-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\striker\\jump-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/player/striker/jump-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\striker\\jump-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/player/striker/jump-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\striker\\jump-6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/player/striker/jump-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\striker\\jump-7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/player/striker/jump-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\striker\\jump-8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/player/striker/jump-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\striker\\jump-9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/player/striker/run-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\striker\\run-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/player/striker/run-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\striker\\run-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/player/striker/run-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\striker\\run-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/player/striker/run-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\striker\\run-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/player/striker/run-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\striker\\run-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/player/striker/run-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\striker\\run-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/player/striker/run-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\striker\\run-6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/player/striker/run-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\striker\\run-7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/background/scifi-lab/back.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\background\\scifi-lab\\back.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/background/scifi-lab/middle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\background\\scifi-lab\\middle.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/background/scifi-lab/front.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\background\\scifi-lab\\front.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/background/scifi-lab/support.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\background\\scifi-lab\\support.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/background/scifi-lab/tank-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\background\\scifi-lab\\tank-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/background/scifi-lab/tank-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\background\\scifi-lab\\tank-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/background/scifi-lab/tank-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\background\\scifi-lab\\tank-3.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ]
   },

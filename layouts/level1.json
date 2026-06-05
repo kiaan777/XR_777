@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.12434828530396612,
+    "zoomFactor": 0.9402131341839959,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -376,11 +376,12 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 51,
+      "depth": 1,
+      "height": 127,
       "layer": "",
       "name": "Adventurer",
       "persistentUuid": "ac10842c-1daa-4c63-a6ad-271f57a79c85",
-      "width": 28,
+      "width": 85,
       "x": 128,
       "y": 368,
       "zOrder": 90,
@@ -3024,8 +3025,8 @@
               "timeBetweenFrames": 0.1,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\adventurer\\idle-1.png",
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\striker\\idle-0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3041,27 +3042,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 4
+                        "x": 20,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 4
+                        "x": 56,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 33
+                        "x": 56,
+                        "y": 68
                       },
                       {
-                        "x": 0,
-                        "y": 33
+                        "x": 20,
+                        "y": 68
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\adventurer\\idle-2.png",
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\striker\\idle-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3077,27 +3078,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 4
+                        "x": 20,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 4
+                        "x": 56,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 33
+                        "x": 56,
+                        "y": 68
                       },
                       {
-                        "x": 0,
-                        "y": 33
+                        "x": 20,
+                        "y": 68
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\adventurer\\idle-3.png",
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\striker\\idle-2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3113,27 +3114,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 4
+                        "x": 20,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 4
+                        "x": 56,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 33
+                        "x": 56,
+                        "y": 68
                       },
                       {
-                        "x": 0,
-                        "y": 33
+                        "x": 20,
+                        "y": 68
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\adventurer\\idle-4.png",
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\striker\\idle-3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3149,27 +3150,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 4
+                        "x": 20,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 4
+                        "x": 56,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 33
+                        "x": 56,
+                        "y": 68
                       },
                       {
-                        "x": 0,
-                        "y": 33
+                        "x": 20,
+                        "y": 68
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\adventurer\\idle-5.png",
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\striker\\idle-4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3185,27 +3186,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 4
+                        "x": 20,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 4
+                        "x": 56,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 33
+                        "x": 56,
+                        "y": 68
                       },
                       {
-                        "x": 0,
-                        "y": 33
+                        "x": 20,
+                        "y": 68
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\adventurer\\idle-6.png",
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\striker\\idle-5.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3221,27 +3222,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 4
+                        "x": 20,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 4
+                        "x": 56,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 33
+                        "x": 56,
+                        "y": 68
                       },
                       {
-                        "x": 0,
-                        "y": 33
+                        "x": 20,
+                        "y": 68
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\adventurer\\idle-7.png",
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\striker\\idle-6.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3257,27 +3258,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 4
+                        "x": 20,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 4
+                        "x": 56,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 33
+                        "x": 56,
+                        "y": 68
                       },
                       {
-                        "x": 0,
-                        "y": 33
+                        "x": 20,
+                        "y": 68
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\adventurer\\idle-8.png",
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\striker\\idle-7.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3293,164 +3294,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 4
+                        "x": 20,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 4
+                        "x": 56,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 33
+                        "x": 56,
+                        "y": 68
                       },
                       {
-                        "x": 0,
-                        "y": 33
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\adventurer\\idle-9.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 4
-                      },
-                      {
-                        "x": 18,
-                        "y": 4
-                      },
-                      {
-                        "x": 18,
-                        "y": 33
-                      },
-                      {
-                        "x": 0,
-                        "y": 33
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\adventurer\\idle-10.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 4
-                      },
-                      {
-                        "x": 18,
-                        "y": 4
-                      },
-                      {
-                        "x": 18,
-                        "y": 33
-                      },
-                      {
-                        "x": 0,
-                        "y": 33
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\adventurer\\idle-11.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 4
-                      },
-                      {
-                        "x": 18,
-                        "y": 4
-                      },
-                      {
-                        "x": 18,
-                        "y": 33
-                      },
-                      {
-                        "x": 0,
-                        "y": 33
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\adventurer\\idle-12.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 4
-                      },
-                      {
-                        "x": 18,
-                        "y": 4
-                      },
-                      {
-                        "x": 18,
-                        "y": 33
-                      },
-                      {
-                        "x": 0,
-                        "y": 33
+                        "x": 20,
+                        "y": 68
                       }
                     ]
                   ]
@@ -3468,8 +3325,8 @@
               "timeBetweenFrames": 0.0833,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\adventurer\\walk-1.png",
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\striker\\run-0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3485,27 +3342,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 4
+                        "x": 20,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 4
+                        "x": 56,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 33
+                        "x": 56,
+                        "y": 68
                       },
                       {
-                        "x": 0,
-                        "y": 33
+                        "x": 20,
+                        "y": 68
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\adventurer\\walk-2.png",
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\striker\\run-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3521,27 +3378,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 4
+                        "x": 20,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 4
+                        "x": 56,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 33
+                        "x": 56,
+                        "y": 68
                       },
                       {
-                        "x": 0,
-                        "y": 33
+                        "x": 20,
+                        "y": 68
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\adventurer\\walk-3.png",
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\striker\\run-2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3557,27 +3414,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 4
+                        "x": 20,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 4
+                        "x": 56,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 33
+                        "x": 56,
+                        "y": 68
                       },
                       {
-                        "x": 0,
-                        "y": 33
+                        "x": 20,
+                        "y": 68
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\adventurer\\walk-4.png",
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\striker\\run-3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3593,27 +3450,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 4
+                        "x": 20,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 4
+                        "x": 56,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 33
+                        "x": 56,
+                        "y": 68
                       },
                       {
-                        "x": 0,
-                        "y": 33
+                        "x": 20,
+                        "y": 68
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\adventurer\\walk-5.png",
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\striker\\run-4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3629,27 +3486,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 4
+                        "x": 20,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 4
+                        "x": 56,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 33
+                        "x": 56,
+                        "y": 68
                       },
                       {
-                        "x": 0,
-                        "y": 33
+                        "x": 20,
+                        "y": 68
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\adventurer\\walk-6.png",
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\striker\\run-5.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3665,27 +3522,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 4
+                        "x": 20,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 4
+                        "x": 56,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 33
+                        "x": 56,
+                        "y": 68
                       },
                       {
-                        "x": 0,
-                        "y": 33
+                        "x": 20,
+                        "y": 68
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\adventurer\\walk-7.png",
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\striker\\run-6.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3701,27 +3558,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 4
+                        "x": 20,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 4
+                        "x": 56,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 33
+                        "x": 56,
+                        "y": 68
                       },
                       {
-                        "x": 0,
-                        "y": 33
+                        "x": 20,
+                        "y": 68
                       }
                     ]
                   ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\adventurer\\walk-8.png",
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\striker\\run-7.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3737,20 +3594,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 4
+                        "x": 20,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 4
+                        "x": 56,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 33
+                        "x": 56,
+                        "y": 68
                       },
                       {
-                        "x": 0,
-                        "y": 33
+                        "x": 20,
+                        "y": 68
                       }
                     ]
                   ]
@@ -3769,7 +3626,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\player\\adventurer\\jump-1.png",
+                  "image": "assets\\player\\striker\\jump-0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3785,20 +3642,416 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 4
+                        "x": 20,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 4
+                        "x": 56,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 33
+                        "x": 56,
+                        "y": 68
                       },
                       {
-                        "x": 0,
-                        "y": 33
+                        "x": 20,
+                        "y": 68
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\striker\\jump-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 36
+                      },
+                      {
+                        "x": 56,
+                        "y": 36
+                      },
+                      {
+                        "x": 56,
+                        "y": 68
+                      },
+                      {
+                        "x": 20,
+                        "y": 68
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\striker\\jump-2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 36
+                      },
+                      {
+                        "x": 56,
+                        "y": 36
+                      },
+                      {
+                        "x": 56,
+                        "y": 68
+                      },
+                      {
+                        "x": 20,
+                        "y": 68
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\striker\\jump-3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 36
+                      },
+                      {
+                        "x": 56,
+                        "y": 36
+                      },
+                      {
+                        "x": 56,
+                        "y": 68
+                      },
+                      {
+                        "x": 20,
+                        "y": 68
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\striker\\jump-4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 36
+                      },
+                      {
+                        "x": 56,
+                        "y": 36
+                      },
+                      {
+                        "x": 56,
+                        "y": 68
+                      },
+                      {
+                        "x": 20,
+                        "y": 68
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\striker\\jump-5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 36
+                      },
+                      {
+                        "x": 56,
+                        "y": 36
+                      },
+                      {
+                        "x": 56,
+                        "y": 68
+                      },
+                      {
+                        "x": 20,
+                        "y": 68
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\striker\\jump-6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 36
+                      },
+                      {
+                        "x": 56,
+                        "y": 36
+                      },
+                      {
+                        "x": 56,
+                        "y": 68
+                      },
+                      {
+                        "x": 20,
+                        "y": 68
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\striker\\jump-7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 36
+                      },
+                      {
+                        "x": 56,
+                        "y": 36
+                      },
+                      {
+                        "x": 56,
+                        "y": 68
+                      },
+                      {
+                        "x": 20,
+                        "y": 68
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\striker\\jump-8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 36
+                      },
+                      {
+                        "x": 56,
+                        "y": 36
+                      },
+                      {
+                        "x": 56,
+                        "y": 68
+                      },
+                      {
+                        "x": 20,
+                        "y": 68
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\striker\\jump-9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 36
+                      },
+                      {
+                        "x": 56,
+                        "y": 36
+                      },
+                      {
+                        "x": 56,
+                        "y": 68
+                      },
+                      {
+                        "x": 20,
+                        "y": 68
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\striker\\jump-10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 36
+                      },
+                      {
+                        "x": 56,
+                        "y": 36
+                      },
+                      {
+                        "x": 56,
+                        "y": 68
+                      },
+                      {
+                        "x": 20,
+                        "y": 68
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\striker\\jump-11.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 36
+                      },
+                      {
+                        "x": 56,
+                        "y": 36
+                      },
+                      {
+                        "x": 56,
+                        "y": 68
+                      },
+                      {
+                        "x": 20,
+                        "y": 68
                       }
                     ]
                   ]
@@ -3817,7 +4070,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\player\\adventurer\\land-1.png",
+                  "image": "assets\\player\\striker\\jump-11.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3833,20 +4086,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 4
+                        "x": 20,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 4
+                        "x": 56,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 33
+                        "x": 56,
+                        "y": 68
                       },
                       {
-                        "x": 0,
-                        "y": 33
+                        "x": 20,
+                        "y": 68
                       }
                     ]
                   ]
@@ -3864,8 +4117,8 @@
               "timeBetweenFrames": 0.1667,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\adventurer\\grab-platform-1.png",
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\striker\\idle-0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3878,11 +4131,30 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 36
+                      },
+                      {
+                        "x": 56,
+                        "y": 36
+                      },
+                      {
+                        "x": 56,
+                        "y": 68
+                      },
+                      {
+                        "x": 20,
+                        "y": 68
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\adventurer\\grab-platform-2.png",
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\striker\\idle-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3895,11 +4167,30 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 36
+                      },
+                      {
+                        "x": 56,
+                        "y": 36
+                      },
+                      {
+                        "x": 56,
+                        "y": 68
+                      },
+                      {
+                        "x": 20,
+                        "y": 68
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\adventurer\\grab-platform-3.png",
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\striker\\idle-2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3912,11 +4203,30 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 36
+                      },
+                      {
+                        "x": 56,
+                        "y": 36
+                      },
+                      {
+                        "x": 56,
+                        "y": 68
+                      },
+                      {
+                        "x": 20,
+                        "y": 68
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\adventurer\\grab-platform-4.png",
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\striker\\idle-3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3929,11 +4239,30 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 36
+                      },
+                      {
+                        "x": 56,
+                        "y": 36
+                      },
+                      {
+                        "x": 56,
+                        "y": 68
+                      },
+                      {
+                        "x": 20,
+                        "y": 68
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\adventurer\\grab-platform-5.png",
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\striker\\idle-4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3946,11 +4275,30 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 36
+                      },
+                      {
+                        "x": 56,
+                        "y": 36
+                      },
+                      {
+                        "x": 56,
+                        "y": 68
+                      },
+                      {
+                        "x": 20,
+                        "y": 68
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\player\\adventurer\\grab-platform-6.png",
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\striker\\idle-5.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3963,7 +4311,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 36
+                      },
+                      {
+                        "x": 56,
+                        "y": 36
+                      },
+                      {
+                        "x": 56,
+                        "y": 68
+                      },
+                      {
+                        "x": 20,
+                        "y": 68
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -3979,7 +4346,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\player\\adventurer\\idle-1.png",
+                  "image": "assets\\player\\striker\\die-0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3995,27 +4362,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 4
+                        "x": 20,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 4
+                        "x": 56,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 33
+                        "x": 56,
+                        "y": 68
                       },
                       {
-                        "x": 0,
-                        "y": 33
+                        "x": 20,
+                        "y": 68
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\player\\adventurer\\die-1.png",
+                  "image": "assets\\player\\striker\\die-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4031,27 +4398,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 4
+                        "x": 20,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 4
+                        "x": 56,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 33
+                        "x": 56,
+                        "y": 68
                       },
                       {
-                        "x": 0,
-                        "y": 33
+                        "x": 20,
+                        "y": 68
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\player\\adventurer\\die-2.png",
+                  "image": "assets\\player\\striker\\die-2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4067,27 +4434,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 4
+                        "x": 20,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 4
+                        "x": 56,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 33
+                        "x": 56,
+                        "y": 68
                       },
                       {
-                        "x": 0,
-                        "y": 33
+                        "x": 20,
+                        "y": 68
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\player\\adventurer\\die-3.png",
+                  "image": "assets\\player\\striker\\die-3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4103,27 +4470,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 4
+                        "x": 20,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 4
+                        "x": 56,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 33
+                        "x": 56,
+                        "y": 68
                       },
                       {
-                        "x": 0,
-                        "y": 33
+                        "x": 20,
+                        "y": 68
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\player\\adventurer\\die-4.png",
+                  "image": "assets\\player\\striker\\die-4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4139,27 +4506,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 4
+                        "x": 20,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 4
+                        "x": 56,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 33
+                        "x": 56,
+                        "y": 68
                       },
                       {
-                        "x": 0,
-                        "y": 33
+                        "x": 20,
+                        "y": 68
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\player\\adventurer\\die-5.png",
+                  "image": "assets\\player\\striker\\die-5.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4175,27 +4542,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 4
+                        "x": 20,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 4
+                        "x": 56,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 33
+                        "x": 56,
+                        "y": 68
                       },
                       {
-                        "x": 0,
-                        "y": 33
+                        "x": 20,
+                        "y": 68
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\player\\adventurer\\die-6.png",
+                  "image": "assets\\player\\striker\\die-6.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4211,27 +4578,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 4
+                        "x": 20,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 4
+                        "x": 56,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 33
+                        "x": 56,
+                        "y": 68
                       },
                       {
-                        "x": 0,
-                        "y": 33
+                        "x": 20,
+                        "y": 68
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\player\\adventurer\\die-7.png",
+                  "image": "assets\\player\\striker\\die-7.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4247,20 +4614,308 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 4
+                        "x": 20,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 4
+                        "x": 56,
+                        "y": 36
                       },
                       {
-                        "x": 18,
-                        "y": 33
+                        "x": 56,
+                        "y": 68
                       },
                       {
-                        "x": 0,
-                        "y": 33
+                        "x": 20,
+                        "y": 68
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\striker\\die-8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 36
+                      },
+                      {
+                        "x": 56,
+                        "y": 36
+                      },
+                      {
+                        "x": 56,
+                        "y": 68
+                      },
+                      {
+                        "x": 20,
+                        "y": 68
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\striker\\die-9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 36
+                      },
+                      {
+                        "x": 56,
+                        "y": 36
+                      },
+                      {
+                        "x": 56,
+                        "y": 68
+                      },
+                      {
+                        "x": 20,
+                        "y": 68
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\striker\\die-10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 36
+                      },
+                      {
+                        "x": 56,
+                        "y": 36
+                      },
+                      {
+                        "x": 56,
+                        "y": 68
+                      },
+                      {
+                        "x": 20,
+                        "y": 68
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\striker\\die-11.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 36
+                      },
+                      {
+                        "x": 56,
+                        "y": 36
+                      },
+                      {
+                        "x": 56,
+                        "y": 68
+                      },
+                      {
+                        "x": 20,
+                        "y": 68
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\striker\\die-12.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 36
+                      },
+                      {
+                        "x": 56,
+                        "y": 36
+                      },
+                      {
+                        "x": 56,
+                        "y": 68
+                      },
+                      {
+                        "x": 20,
+                        "y": 68
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\striker\\die-13.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 36
+                      },
+                      {
+                        "x": 56,
+                        "y": 36
+                      },
+                      {
+                        "x": 56,
+                        "y": 68
+                      },
+                      {
+                        "x": 20,
+                        "y": 68
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\striker\\die-14.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 36
+                      },
+                      {
+                        "x": 56,
+                        "y": 36
+                      },
+                      {
+                        "x": 56,
+                        "y": 68
+                      },
+                      {
+                        "x": 20,
+                        "y": 68
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\striker\\die-15.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 36
+                      },
+                      {
+                        "x": 56,
+                        "y": 36
+                      },
+                      {
+                        "x": 56,
+                        "y": 68
+                      },
+                      {
+                        "x": 20,
+                        "y": 68
                       }
                     ]
                   ]

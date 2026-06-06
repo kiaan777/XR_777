@@ -16356,6 +16356,42 @@
         "includeConfig": 0
       },
       "target": "LevelLogic"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneJustBegins"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "StopMusicChannel"
+          },
+          "parameters": [
+            "",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "assets/sounds/Magic Fx 7 (1).ogg",
+            "",
+            "GlobalVariable(Settings.MusicVolume)",
+            "1"
+          ]
+        }
+      ]
     }
   ],
   "layers": [

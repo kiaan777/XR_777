@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6787899254252415,
+    "zoomFactor": 0.701678945765722,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -10541,7 +10541,7 @@
       "assetStoreId": "",
       "height": 16,
       "name": "PlatformVertical",
-      "texture": "assets\\tiles\\platform-006.png",
+      "texture": "assets\\tiles\\cyber-purp\\platform-006.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 16,
       "variables": [],
@@ -10560,7 +10560,7 @@
       "assetStoreId": "",
       "height": 16,
       "name": "PlatformHorizontal",
-      "texture": "assets\\tiles\\platform-009.png",
+      "texture": "assets\\tiles\\cyber-purp\\platform-009.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 16,
       "variables": [],
@@ -10603,7 +10603,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-005.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-plat.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10632,7 +10632,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-001.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-plat.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10661,7 +10661,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-011.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-plat.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10690,7 +10690,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-043.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-plat.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10719,7 +10719,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-007.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-plat.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10748,7 +10748,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-056.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-plat.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10777,7 +10777,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-057.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-plat.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10806,7 +10806,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-063.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-plat.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10835,7 +10835,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-062.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-plat.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10864,7 +10864,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-058.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-plat.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10893,7 +10893,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-033.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-plat.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10922,7 +10922,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-044.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-plat.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10951,7 +10951,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-034.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-plat.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10980,7 +10980,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-031.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-plat.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11005,7 +11005,7 @@
       "assetStoreId": "",
       "height": 16,
       "name": "ForegroundTop",
-      "texture": "assets\\tiles\\platform-003.png",
+      "texture": "assets\\tiles\\cyber-purp\\platform-003.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 16,
       "variables": [],
@@ -11024,7 +11024,7 @@
       "assetStoreId": "",
       "height": 16,
       "name": "ForegroundRight",
-      "texture": "assets\\tiles\\platform-018.png",
+      "texture": "assets\\tiles\\cyber-purp\\platform-018.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 16,
       "variables": [],
@@ -11043,7 +11043,7 @@
       "assetStoreId": "",
       "height": 16,
       "name": "ForegroundBottom",
-      "texture": "assets\\tiles\\platform-039.png",
+      "texture": "assets\\tiles\\cyber-purp\\platform-039.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 16,
       "variables": [],
@@ -11062,7 +11062,7 @@
       "assetStoreId": "",
       "height": 16,
       "name": "ForegroundLeft",
-      "texture": "assets\\tiles\\platform-014.png",
+      "texture": "assets\\tiles\\cyber-purp\\platform-014.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 16,
       "variables": [],
@@ -11105,7 +11105,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-002.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-fg.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11134,7 +11134,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-004.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-fg.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11163,7 +11163,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-020.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-fg.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11192,7 +11192,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-019.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-fg.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11221,7 +11221,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-052.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-fg.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11250,7 +11250,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-053.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-fg.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11279,7 +11279,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-048.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-fg.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11308,7 +11308,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-049.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-fg.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11337,7 +11337,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-021.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-fg.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11366,7 +11366,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-022.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-fg.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11395,7 +11395,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-040.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-fg.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11424,7 +11424,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-038.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-fg.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11453,7 +11453,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-054.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-fg.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11482,7 +11482,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-055.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-fg.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11511,7 +11511,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-061.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-fg.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11540,7 +11540,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-060.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-fg.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11569,7 +11569,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-023.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-fg.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11598,7 +11598,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-024.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-fg.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11627,7 +11627,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-042.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-fg.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11656,7 +11656,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-041.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-fg.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11685,7 +11685,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-085.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-fg.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11714,7 +11714,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-086.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-fg.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11743,7 +11743,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-090.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-fg.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11772,7 +11772,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-089.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-fg.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11797,7 +11797,7 @@
       "assetStoreId": "",
       "height": 16,
       "name": "GroundTop",
-      "texture": "assets\\tiles\\platform-036.png",
+      "texture": "assets\\tiles\\cyber-purp\\platform-036.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 16,
       "variables": [],
@@ -11808,7 +11808,7 @@
       "assetStoreId": "",
       "height": 16,
       "name": "GroundRight",
-      "texture": "assets\\tiles\\platform-026.png",
+      "texture": "assets\\tiles\\cyber-purp\\platform-026.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 16,
       "variables": [],
@@ -11819,7 +11819,7 @@
       "assetStoreId": "",
       "height": 16,
       "name": "GroundBottom",
-      "texture": "assets\\tiles\\platform-016.png",
+      "texture": "assets\\tiles\\cyber-purp\\platform-016.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 16,
       "variables": [],
@@ -11830,7 +11830,7 @@
       "assetStoreId": "",
       "height": 16,
       "name": "GroundLeft",
-      "texture": "assets\\tiles\\platform-077.png",
+      "texture": "assets\\tiles\\cyber-purp\\platform-077.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 16,
       "variables": [],
@@ -11841,7 +11841,7 @@
       "assetStoreId": "",
       "height": 16,
       "name": "GroundFull",
-      "texture": "assets\\tiles\\platform-027.png",
+      "texture": "assets\\tiles\\cyber-purp\\platform-027.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 16,
       "variables": [],
@@ -11852,7 +11852,7 @@
       "assetStoreId": "",
       "height": 16,
       "name": "GroundFullSingle",
-      "texture": "assets\\tiles\\platform-030.png",
+      "texture": "assets\\tiles\\cyber-purp\\platform-030.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 16,
       "variables": [],
@@ -11879,7 +11879,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-030.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-ground.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11908,7 +11908,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-070.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-ground.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11937,7 +11937,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-071.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-ground.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11966,7 +11966,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-097.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-ground.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11995,7 +11995,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-096.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-ground.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12024,7 +12024,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-015.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-ground.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12053,7 +12053,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-017.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-ground.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12082,7 +12082,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-037.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-ground.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12111,7 +12111,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-035.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-ground.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12136,7 +12136,7 @@
       "assetStoreId": "",
       "height": 16,
       "name": "BackgroundTop",
-      "texture": "assets\\tiles\\platform-074.png",
+      "texture": "assets\\tiles\\cyber-purp\\platform-074.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 16,
       "variables": [],
@@ -12147,7 +12147,7 @@
       "assetStoreId": "",
       "height": 16,
       "name": "BackgroundRight",
-      "texture": "assets\\tiles\\platform-082.png",
+      "texture": "assets\\tiles\\cyber-purp\\platform-082.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 16,
       "variables": [],
@@ -12158,7 +12158,7 @@
       "assetStoreId": "",
       "height": 16,
       "name": "BackgroundBottom",
-      "texture": "assets\\tiles\\platform-087.png",
+      "texture": "assets\\tiles\\cyber-purp\\platform-087.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 16,
       "variables": [],
@@ -12169,7 +12169,7 @@
       "assetStoreId": "",
       "height": 16,
       "name": "BackgroundLeft",
-      "texture": "assets\\tiles\\platform-080.png",
+      "texture": "assets\\tiles\\cyber-purp\\platform-080.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 16,
       "variables": [],
@@ -12180,7 +12180,7 @@
       "assetStoreId": "",
       "height": 16,
       "name": "BackgroundHorizontal",
-      "texture": "assets\\tiles\\platform-093.png",
+      "texture": "assets\\tiles\\cyber-purp\\platform-093.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 16,
       "variables": [],
@@ -12191,7 +12191,7 @@
       "assetStoreId": "",
       "height": 16,
       "name": "BackgroundVertical",
-      "texture": "assets\\tiles\\platform-098.png",
+      "texture": "assets\\tiles\\cyber-purp\\platform-098.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 16,
       "variables": [],
@@ -12203,7 +12203,7 @@
       "height": 16,
       "name": "BackgroundFull",
       "persistentUuid": "ada01df2-8912-437c-a2d5-c42503a2c022",
-      "texture": "assets\\tiles\\platform-081.png",
+      "texture": "assets\\tiles\\cyber-purp\\platform-081.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 16,
       "variables": [],
@@ -12230,7 +12230,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-091.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-bg.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12259,7 +12259,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-088.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-bg.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12288,7 +12288,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-094.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-bg.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12317,7 +12317,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-100.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-bg.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12346,7 +12346,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-092.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-bg.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12375,7 +12375,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-072.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-bg.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12404,7 +12404,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-073.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-bg.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12433,7 +12433,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-079.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-bg.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12462,7 +12462,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-078.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-bg.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12491,7 +12491,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-084.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-bg.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12520,7 +12520,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-083.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-bg.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12549,7 +12549,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-075.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-bg.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12578,7 +12578,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\tiles\\platform-076.png",
+                  "image": "assets\\tiles\\cyber-purp\\corner-bg.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12761,6 +12761,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "SmallMovingPlatform",
+      "persistentUuid": "63e174a5-e8a2-4ee2-b877-ec72ecc375b7",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -12835,11 +12836,12 @@
       ],
       "animations": [
         {
-          "name": "",
+          "name": "assets\\small-platform",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"assets\\\\\\\\small-platform\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":12,\\\"width\\\":48,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAMCAYAAAAkuj5RAAAAAXNSR0IArs4c6QAAAOpJREFUSEtjdNWw+e+l958BBK4//sagKcuFwsYmBlZAonqYObjMwyYPswfZLmT92y4xMjAiewCXQnTH4uMjW4DNo9j0YgsMkBh6YKKrw+oBZF8PdjbYAwwMDP/TLA0Hu1uxum/W8fOYHrj/nptBUfArWAMyG2YCuhgp6gmZh00e2eXo8lg9ABKExQgyG2YQuhgp6gmZh00e2QPY7AYlIRCAFENDDzDCPABzOk6PuGrYoHhv940jVPUuiebD3T3sPIAeqvAYIRBC6AFBbOxQbD4pFqMnL1L0EuMhsswnxRFkWUCMy3EUJES5DQDJecICMjjKuQAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1 (imported)\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAMCAYAAAAkuj5RAAAAAXNSR0IArs4c6QAAAOlJREFUSEtjdNWw+b+7awEDCPwPvMHAuF4DhY1NDKyARPUwc3CZh00eZg+yXcj6XcsSGBiRPYBLIbpj8fGRLcDmUWx6sQUGSAw9MNHVYfUAsq8HOxvsAVBKYGB+Ptjdit19fyUxPfCf4SwDI4MxJI0jseHJAU2MFPWEzMMmj5IP0N2DzQMMfyUZ4DGCzIaZhC5GinpC5mGTR/YBFrtBSQgS2EMTMMI8gEghODziqmGDIrP7xhGqeplE8+HuHnYeQA9VeNIiEELoAUFs7FBsPikWo+cTUvQS4yGyzCfFEWRZQIzLcRQkRLkNAM0KqwKEq/SFAAAAAElFTkSuQmCC\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[]}}\",\"resourceNames\":[\"assets\\\\small-platform.png\"],\"name\":\"assets\\\\small-platform\"}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
@@ -12888,6 +12890,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "LargeMovingPlatform",
+      "persistentUuid": "1dd63609-26ae-4dbe-9882-4e7fec61c293",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -12965,11 +12968,12 @@
       ],
       "animations": [
         {
-          "name": "",
+          "name": "assets\\large-platform",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"assets\\\\\\\\large-platform\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":12,\\\"width\\\":96,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAAAMCAYAAACdrrgZAAAAAXNSR0IArs4c6QAAASpJREFUWEdjdNWw+e+l958BBK4//sagKcuFwsYmBlZAonqYObjMwyYPswfZLmT9uNyASz0xeklxH6HwIuT+bZcYGRiRI4BYj6J7HJ8+fGqxORCmHkSjJwZ8AY6eKPAF9mBxP9YIQA6UUTZtQwAcAQwMDP/TLA1pa9Oo6VhDYNbx85gRcP89N4Oi4FewBmQ2zAR0MVLUEzIPmzyyy/HZjc19hOxD9yMh9eTI43M/1ggACcJyBDIbZhC6GCnqCZmHTR7ZA/jsxuY+QvaB9Ay0+0FFEAhAmkGjgN4hwAiLAJjFOCPCVcMGxXG7bxyhqmNHmPnwcB+NAColIxITEM4IQHcOPEcQsAA9Ion11og3n5SAQy+eSNFLTISMSPNJCcQRGUDEpBwcDRmiwhYAF2pzEbY+QWsAAAAASUVORK5CYII=\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1 (imported)\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAAAMCAYAAACdrrgZAAAAAXNSR0IArs4c6QAAASZJREFUWEftVsENwjAMdMSTOZA6BN/y4sMGTIEYATEFG/DhRb8MgcQcPFFQilylxolj1KpIST+NEvt8vnOjmrpa2uZ4gvbZzAHOz/6a2/tE6OIRJ4THnWMdv5afH+IQik/J1fCT9BL417stmJ4BqY3SxmN5sViOIMa7Nx2GmOB0KGJi/wl/3gBflLIeVYHWAACwdnYZtVAB5xUwr/W3AavFAa6PfZvhrxGC7mniJTzu3Kceq83xk+rRHqX4X85j/FkD3CZ+Ef4ageieJl7C4879BmK1OX5SPZczNX93BbnHlmtiEgUMGoDVg0bU1bLHsLnfBmWcGX6nezFgoDFSDlDQAEqn+yKEAtTI1Layx9cIR68nTW6KIVnia0TMUqCUyQn8yCRp+wZ1GjsRnxMCtwAAAABJRU5ErkJggg==\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[]}}\",\"resourceNames\":[\"assets\\\\large-platform.png\"],\"name\":\"assets\\\\large-platform\"}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
@@ -16356,42 +16360,6 @@
         "includeConfig": 0
       },
       "target": "LevelLogic"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SceneJustBegins"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "StopMusicChannel"
-          },
-          "parameters": [
-            "",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "PlayMusic"
-          },
-          "parameters": [
-            "",
-            "assets/sounds/Magic Fx 7 (1).ogg",
-            "",
-            "GlobalVariable(Settings.MusicVolume)",
-            "1"
-          ]
-        }
-      ]
     }
   ],
   "layers": [

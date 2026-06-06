@@ -9,7 +9,7 @@
   "title": "",
   "v": 222,
   "uiSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 16,
     "gridHeight": 16,
@@ -19,8 +19,8 @@
     "gridOffsetZ": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": true,
-    "zoomFactor": 0.7016789457657211,
+    "snap": false,
+    "zoomFactor": 0.6787899254252415,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -387,9 +387,8 @@
   "instances": [
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 96,
+      "customSize": false,
+      "height": 111,
       "layer": "",
       "name": "Adventurer",
       "persistentUuid": "50f9225f-67ef-4ba8-afe8-a624c095fa92",
@@ -410,7 +409,7 @@
       "angle": 0,
       "customSize": true,
       "height": 540,
-      "layer": "Background4",
+      "layer": "Background1",
       "locked": true,
       "name": "Parallax4",
       "persistentUuid": "541cac3e-f45c-42c4-bee5-389218430922",
@@ -593,13 +592,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 32,
+      "depth": 1,
+      "height": 96,
       "layer": "",
       "name": "Snake",
       "persistentUuid": "b813ffd8-16e2-4928-97db-77f5e36a0b2f",
-      "width": 64,
-      "x": 128,
-      "y": 432,
+      "width": 72,
+      "x": 136,
+      "y": 396,
       "zOrder": 80,
       "numberProperties": [],
       "stringProperties": [],
@@ -5565,13 +5565,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 32,
+      "depth": 1,
+      "height": 96,
       "layer": "",
       "name": "Snake",
       "persistentUuid": "7c12d8b8-b7cb-49c6-b1f1-787113c51172",
-      "width": 64,
-      "x": 544,
-      "y": 464,
+      "width": 71,
+      "x": 541,
+      "y": 430,
       "zOrder": 80,
       "numberProperties": [],
       "stringProperties": [],
@@ -5645,8 +5646,8 @@
       "name": "Bat",
       "persistentUuid": "21b0bf8a-881b-4b1f-99cc-63327e96bc50",
       "width": 0,
-      "x": 1104,
-      "y": 256,
+      "x": 1116,
+      "y": 226,
       "zOrder": 80,
       "numberProperties": [],
       "stringProperties": [],
@@ -5885,8 +5886,8 @@
       "name": "Bat",
       "persistentUuid": "0bc349dc-b8aa-4baf-b423-1ad865cdef50",
       "width": 0,
-      "x": 1136,
-      "y": 96,
+      "x": 1134,
+      "y": 80,
       "zOrder": 80,
       "numberProperties": [],
       "stringProperties": [],
@@ -5915,13 +5916,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 32,
+      "depth": 1,
+      "height": 96,
       "layer": "",
       "name": "Snake",
       "persistentUuid": "c1a1e916-b319-4aa8-815b-3defbc6e1b1d",
-      "width": 64,
-      "x": 1248,
-      "y": 480,
+      "width": 73,
+      "x": 1252,
+      "y": 448,
       "zOrder": 80,
       "numberProperties": [],
       "stringProperties": [],
@@ -7328,8 +7330,8 @@
       "name": "Bat",
       "persistentUuid": "dd807ccb-95c4-46a0-947f-f8e301926f20",
       "width": 0,
-      "x": 1696,
-      "y": 240,
+      "x": 1695,
+      "y": 221,
       "zOrder": 80,
       "numberProperties": [],
       "stringProperties": [],
@@ -8365,13 +8367,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 32,
+      "depth": 1,
+      "height": 96,
       "layer": "",
       "name": "Snake",
       "persistentUuid": "19bc8a4a-6c89-4944-8530-746d1490757f",
-      "width": 64,
-      "x": 2192,
-      "y": 432,
+      "width": 82,
+      "x": 2201,
+      "y": 402,
       "zOrder": 80,
       "numberProperties": [],
       "stringProperties": [],
@@ -8563,6 +8566,7 @@
       "assetStoreId": "",
       "height": 540,
       "name": "Parallax3",
+      "persistentUuid": "c2270c2a-5ba3-4186-a79b-805b154a2550",
       "texture": "assets\\background\\scifi-lab\\front.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 960,
@@ -8574,6 +8578,7 @@
       "assetStoreId": "",
       "height": 540,
       "name": "Parallax4",
+      "persistentUuid": "b2636c71-36a6-497e-9ce1-9b0cb4839757",
       "texture": "assets\\background\\scifi-lab\\support.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 960,
@@ -8585,6 +8590,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Adventurer",
+      "persistentUuid": "673935af-80d8-4c8e-b4c5-ec1a82497dff",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -12196,6 +12202,7 @@
       "assetStoreId": "",
       "height": 16,
       "name": "BackgroundFull",
+      "persistentUuid": "ada01df2-8912-437c-a2d5-c42503a2c022",
       "texture": "assets\\tiles\\platform-081.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 16,
@@ -12596,6 +12603,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "ChangeDirection",
+      "persistentUuid": "53b6bb18-fffb-419b-80e1-fc45ea624777",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -12991,6 +12999,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Bat",
+      "persistentUuid": "b73ef486-04ab-4648-bd61-0d2cec3ebab8",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -13062,7 +13071,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\enemies\\bat\\fly-1.png",
+                  "image": "assets\\enemies\\drone\\fly-0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13078,27 +13087,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 10,
-                        "y": 0
+                        "x": 34,
+                        "y": 25
                       },
                       {
-                        "x": 26,
-                        "y": 0
+                        "x": 64,
+                        "y": 25
                       },
                       {
-                        "x": 26,
-                        "y": 21
+                        "x": 64,
+                        "y": 62
                       },
                       {
-                        "x": 10,
-                        "y": 21
+                        "x": 34,
+                        "y": 62
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\enemies\\bat\\fly-2.png",
+                  "image": "assets\\enemies\\drone\\fly-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13114,27 +13123,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 10,
-                        "y": 0
+                        "x": 34,
+                        "y": 25
                       },
                       {
-                        "x": 26,
-                        "y": 0
+                        "x": 64,
+                        "y": 25
                       },
                       {
-                        "x": 26,
-                        "y": 21
+                        "x": 64,
+                        "y": 62
                       },
                       {
-                        "x": 10,
-                        "y": 21
+                        "x": 34,
+                        "y": 62
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\enemies\\bat\\fly-3.png",
+                  "image": "assets\\enemies\\drone\\fly-2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13150,20 +13159,344 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 10,
-                        "y": 0
+                        "x": 34,
+                        "y": 25
                       },
                       {
-                        "x": 26,
-                        "y": 0
+                        "x": 64,
+                        "y": 25
                       },
                       {
-                        "x": 26,
-                        "y": 21
+                        "x": 64,
+                        "y": 62
                       },
                       {
-                        "x": 10,
-                        "y": 21
+                        "x": 34,
+                        "y": 62
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\enemies\\drone\\fly-3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34,
+                        "y": 25
+                      },
+                      {
+                        "x": 64,
+                        "y": 25
+                      },
+                      {
+                        "x": 64,
+                        "y": 62
+                      },
+                      {
+                        "x": 34,
+                        "y": 62
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\enemies\\drone\\fly-4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34,
+                        "y": 25
+                      },
+                      {
+                        "x": 64,
+                        "y": 25
+                      },
+                      {
+                        "x": 64,
+                        "y": 62
+                      },
+                      {
+                        "x": 34,
+                        "y": 62
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\enemies\\drone\\fly-5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34,
+                        "y": 25
+                      },
+                      {
+                        "x": 64,
+                        "y": 25
+                      },
+                      {
+                        "x": 64,
+                        "y": 62
+                      },
+                      {
+                        "x": 34,
+                        "y": 62
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\enemies\\drone\\fly-6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34,
+                        "y": 25
+                      },
+                      {
+                        "x": 64,
+                        "y": 25
+                      },
+                      {
+                        "x": 64,
+                        "y": 62
+                      },
+                      {
+                        "x": 34,
+                        "y": 62
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\enemies\\drone\\fly-7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34,
+                        "y": 25
+                      },
+                      {
+                        "x": 64,
+                        "y": 25
+                      },
+                      {
+                        "x": 64,
+                        "y": 62
+                      },
+                      {
+                        "x": 34,
+                        "y": 62
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\enemies\\drone\\fly-8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34,
+                        "y": 25
+                      },
+                      {
+                        "x": 64,
+                        "y": 25
+                      },
+                      {
+                        "x": 64,
+                        "y": 62
+                      },
+                      {
+                        "x": 34,
+                        "y": 62
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\enemies\\drone\\fly-9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34,
+                        "y": 25
+                      },
+                      {
+                        "x": 64,
+                        "y": 25
+                      },
+                      {
+                        "x": 64,
+                        "y": 62
+                      },
+                      {
+                        "x": 34,
+                        "y": 62
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\enemies\\drone\\fly-10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34,
+                        "y": 25
+                      },
+                      {
+                        "x": 64,
+                        "y": 25
+                      },
+                      {
+                        "x": 64,
+                        "y": 62
+                      },
+                      {
+                        "x": 34,
+                        "y": 62
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\enemies\\drone\\fly-11.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34,
+                        "y": 25
+                      },
+                      {
+                        "x": 64,
+                        "y": 25
+                      },
+                      {
+                        "x": 64,
+                        "y": 62
+                      },
+                      {
+                        "x": 34,
+                        "y": 62
                       }
                     ]
                   ]
@@ -13182,7 +13515,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\enemies\\bat\\die-1.png",
+                  "image": "assets\\enemies\\drone\\die-0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13198,20 +13531,452 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 10,
-                        "y": 0
+                        "x": 34,
+                        "y": 25
                       },
                       {
-                        "x": 26,
-                        "y": 0
+                        "x": 64,
+                        "y": 25
                       },
                       {
-                        "x": 26,
-                        "y": 21
+                        "x": 64,
+                        "y": 62
                       },
                       {
-                        "x": 10,
-                        "y": 21
+                        "x": 34,
+                        "y": 62
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\enemies\\drone\\die-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34,
+                        "y": 25
+                      },
+                      {
+                        "x": 64,
+                        "y": 25
+                      },
+                      {
+                        "x": 64,
+                        "y": 62
+                      },
+                      {
+                        "x": 34,
+                        "y": 62
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\enemies\\drone\\die-2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34,
+                        "y": 25
+                      },
+                      {
+                        "x": 64,
+                        "y": 25
+                      },
+                      {
+                        "x": 64,
+                        "y": 62
+                      },
+                      {
+                        "x": 34,
+                        "y": 62
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\enemies\\drone\\die-3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34,
+                        "y": 25
+                      },
+                      {
+                        "x": 64,
+                        "y": 25
+                      },
+                      {
+                        "x": 64,
+                        "y": 62
+                      },
+                      {
+                        "x": 34,
+                        "y": 62
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\enemies\\drone\\die-4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34,
+                        "y": 25
+                      },
+                      {
+                        "x": 64,
+                        "y": 25
+                      },
+                      {
+                        "x": 64,
+                        "y": 62
+                      },
+                      {
+                        "x": 34,
+                        "y": 62
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\enemies\\drone\\die-5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34,
+                        "y": 25
+                      },
+                      {
+                        "x": 64,
+                        "y": 25
+                      },
+                      {
+                        "x": 64,
+                        "y": 62
+                      },
+                      {
+                        "x": 34,
+                        "y": 62
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\enemies\\drone\\die-6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34,
+                        "y": 25
+                      },
+                      {
+                        "x": 64,
+                        "y": 25
+                      },
+                      {
+                        "x": 64,
+                        "y": 62
+                      },
+                      {
+                        "x": 34,
+                        "y": 62
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\enemies\\drone\\die-7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34,
+                        "y": 25
+                      },
+                      {
+                        "x": 64,
+                        "y": 25
+                      },
+                      {
+                        "x": 64,
+                        "y": 62
+                      },
+                      {
+                        "x": 34,
+                        "y": 62
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\enemies\\drone\\die-8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34,
+                        "y": 25
+                      },
+                      {
+                        "x": 64,
+                        "y": 25
+                      },
+                      {
+                        "x": 64,
+                        "y": 62
+                      },
+                      {
+                        "x": 34,
+                        "y": 62
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\enemies\\drone\\die-9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34,
+                        "y": 25
+                      },
+                      {
+                        "x": 64,
+                        "y": 25
+                      },
+                      {
+                        "x": 64,
+                        "y": 62
+                      },
+                      {
+                        "x": 34,
+                        "y": 62
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\enemies\\drone\\die-10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34,
+                        "y": 25
+                      },
+                      {
+                        "x": 64,
+                        "y": 25
+                      },
+                      {
+                        "x": 64,
+                        "y": 62
+                      },
+                      {
+                        "x": 34,
+                        "y": 62
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\enemies\\drone\\die-11.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34,
+                        "y": 25
+                      },
+                      {
+                        "x": 64,
+                        "y": 25
+                      },
+                      {
+                        "x": 64,
+                        "y": 62
+                      },
+                      {
+                        "x": 34,
+                        "y": 62
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\enemies\\drone\\die-12.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34,
+                        "y": 25
+                      },
+                      {
+                        "x": 64,
+                        "y": 25
+                      },
+                      {
+                        "x": 64,
+                        "y": 62
+                      },
+                      {
+                        "x": 34,
+                        "y": 62
                       }
                     ]
                   ]
@@ -13226,6 +13991,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Snake",
+      "persistentUuid": "1b8cfba2-8c1c-49a5-860d-60e26648bb09",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -13300,7 +14066,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\enemies\\snake\\walk-01.png",
+                  "image": "assets\\enemies\\assassin\\walk-0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13316,27 +14082,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 10,
-                        "y": 5
+                        "x": 40,
+                        "y": 32
                       },
                       {
-                        "x": 24,
-                        "y": 5
+                        "x": 60,
+                        "y": 32
                       },
                       {
-                        "x": 24,
-                        "y": 16
+                        "x": 60,
+                        "y": 68
                       },
                       {
-                        "x": 10,
-                        "y": 16
+                        "x": 40,
+                        "y": 68
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\enemies\\snake\\walk-02.png",
+                  "image": "assets\\enemies\\assassin\\walk-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13352,27 +14118,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 10,
-                        "y": 5
+                        "x": 40,
+                        "y": 32
                       },
                       {
-                        "x": 24,
-                        "y": 5
+                        "x": 60,
+                        "y": 32
                       },
                       {
-                        "x": 24,
-                        "y": 16
+                        "x": 60,
+                        "y": 68
                       },
                       {
-                        "x": 10,
-                        "y": 16
+                        "x": 40,
+                        "y": 68
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\enemies\\snake\\walk-03.png",
+                  "image": "assets\\enemies\\assassin\\walk-2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13388,27 +14154,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 10,
-                        "y": 5
+                        "x": 40,
+                        "y": 32
                       },
                       {
-                        "x": 24,
-                        "y": 5
+                        "x": 60,
+                        "y": 32
                       },
                       {
-                        "x": 24,
-                        "y": 16
+                        "x": 60,
+                        "y": 68
                       },
                       {
-                        "x": 10,
-                        "y": 16
+                        "x": 40,
+                        "y": 68
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\enemies\\snake\\walk-04.png",
+                  "image": "assets\\enemies\\assassin\\walk-3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13424,27 +14190,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 10,
-                        "y": 5
+                        "x": 40,
+                        "y": 32
                       },
                       {
-                        "x": 24,
-                        "y": 5
+                        "x": 60,
+                        "y": 32
                       },
                       {
-                        "x": 24,
-                        "y": 16
+                        "x": 60,
+                        "y": 68
                       },
                       {
-                        "x": 10,
-                        "y": 16
+                        "x": 40,
+                        "y": 68
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\enemies\\snake\\walk-05.png",
+                  "image": "assets\\enemies\\assassin\\walk-4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13460,27 +14226,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 10,
-                        "y": 5
+                        "x": 40,
+                        "y": 32
                       },
                       {
-                        "x": 24,
-                        "y": 5
+                        "x": 60,
+                        "y": 32
                       },
                       {
-                        "x": 24,
-                        "y": 16
+                        "x": 60,
+                        "y": 68
                       },
                       {
-                        "x": 10,
-                        "y": 16
+                        "x": 40,
+                        "y": 68
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\enemies\\snake\\walk-06.png",
+                  "image": "assets\\enemies\\assassin\\walk-5.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13496,27 +14262,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 10,
-                        "y": 5
+                        "x": 40,
+                        "y": 32
                       },
                       {
-                        "x": 24,
-                        "y": 5
+                        "x": 60,
+                        "y": 32
                       },
                       {
-                        "x": 24,
-                        "y": 16
+                        "x": 60,
+                        "y": 68
                       },
                       {
-                        "x": 10,
-                        "y": 16
+                        "x": 40,
+                        "y": 68
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\enemies\\snake\\walk-07.png",
+                  "image": "assets\\enemies\\assassin\\walk-6.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13532,27 +14298,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 10,
-                        "y": 5
+                        "x": 40,
+                        "y": 32
                       },
                       {
-                        "x": 24,
-                        "y": 5
+                        "x": 60,
+                        "y": 32
                       },
                       {
-                        "x": 24,
-                        "y": 16
+                        "x": 60,
+                        "y": 68
                       },
                       {
-                        "x": 10,
-                        "y": 16
+                        "x": 40,
+                        "y": 68
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\enemies\\snake\\walk-08.png",
+                  "image": "assets\\enemies\\assassin\\walk-7.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13568,27 +14334,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 10,
-                        "y": 5
+                        "x": 40,
+                        "y": 32
                       },
                       {
-                        "x": 24,
-                        "y": 5
+                        "x": 60,
+                        "y": 32
                       },
                       {
-                        "x": 24,
-                        "y": 16
+                        "x": 60,
+                        "y": 68
                       },
                       {
-                        "x": 10,
-                        "y": 16
+                        "x": 40,
+                        "y": 68
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\enemies\\snake\\walk-09.png",
+                  "image": "assets\\enemies\\assassin\\walk-8.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13604,27 +14370,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 10,
-                        "y": 5
+                        "x": 40,
+                        "y": 32
                       },
                       {
-                        "x": 24,
-                        "y": 5
+                        "x": 60,
+                        "y": 32
                       },
                       {
-                        "x": 24,
-                        "y": 16
+                        "x": 60,
+                        "y": 68
                       },
                       {
-                        "x": 10,
-                        "y": 16
+                        "x": 40,
+                        "y": 68
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\enemies\\snake\\walk-10.png",
+                  "image": "assets\\enemies\\assassin\\walk-9.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13640,20 +14406,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 10,
-                        "y": 5
+                        "x": 40,
+                        "y": 32
                       },
                       {
-                        "x": 24,
-                        "y": 5
+                        "x": 60,
+                        "y": 32
                       },
                       {
-                        "x": 24,
-                        "y": 16
+                        "x": 60,
+                        "y": 68
                       },
                       {
-                        "x": 10,
-                        "y": 16
+                        "x": 40,
+                        "y": 68
                       }
                     ]
                   ]
@@ -13672,7 +14438,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\enemies\\snake\\die-01.png",
+                  "image": "assets\\enemies\\assassin\\die-0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13688,27 +14454,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 10,
-                        "y": 5
+                        "x": 40,
+                        "y": 32
                       },
                       {
-                        "x": 24,
-                        "y": 5
+                        "x": 60,
+                        "y": 32
                       },
                       {
-                        "x": 24,
-                        "y": 16
+                        "x": 60,
+                        "y": 68
                       },
                       {
-                        "x": 10,
-                        "y": 16
+                        "x": 40,
+                        "y": 68
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\enemies\\snake\\die-02.png",
+                  "image": "assets\\enemies\\assassin\\die-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13724,27 +14490,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 10,
-                        "y": 5
+                        "x": 40,
+                        "y": 32
                       },
                       {
-                        "x": 24,
-                        "y": 5
+                        "x": 60,
+                        "y": 32
                       },
                       {
-                        "x": 24,
-                        "y": 16
+                        "x": 60,
+                        "y": 68
                       },
                       {
-                        "x": 10,
-                        "y": 16
+                        "x": 40,
+                        "y": 68
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\enemies\\snake\\die-03.png",
+                  "image": "assets\\enemies\\assassin\\die-2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13760,27 +14526,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 10,
-                        "y": 5
+                        "x": 40,
+                        "y": 32
                       },
                       {
-                        "x": 24,
-                        "y": 5
+                        "x": 60,
+                        "y": 32
                       },
                       {
-                        "x": 24,
-                        "y": 16
+                        "x": 60,
+                        "y": 68
                       },
                       {
-                        "x": 10,
-                        "y": 16
+                        "x": 40,
+                        "y": 68
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\enemies\\snake\\die-04.png",
+                  "image": "assets\\enemies\\assassin\\die-3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13796,27 +14562,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 10,
-                        "y": 5
+                        "x": 40,
+                        "y": 32
                       },
                       {
-                        "x": 24,
-                        "y": 5
+                        "x": 60,
+                        "y": 32
                       },
                       {
-                        "x": 24,
-                        "y": 16
+                        "x": 60,
+                        "y": 68
                       },
                       {
-                        "x": 10,
-                        "y": 16
+                        "x": 40,
+                        "y": 68
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\enemies\\snake\\die-05.png",
+                  "image": "assets\\enemies\\assassin\\die-4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13832,27 +14598,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 10,
-                        "y": 5
+                        "x": 40,
+                        "y": 32
                       },
                       {
-                        "x": 24,
-                        "y": 5
+                        "x": 60,
+                        "y": 32
                       },
                       {
-                        "x": 24,
-                        "y": 16
+                        "x": 60,
+                        "y": 68
                       },
                       {
-                        "x": 10,
-                        "y": 16
+                        "x": 40,
+                        "y": 68
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\enemies\\snake\\die-06.png",
+                  "image": "assets\\enemies\\assassin\\die-5.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13868,27 +14634,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 10,
-                        "y": 5
+                        "x": 40,
+                        "y": 32
                       },
                       {
-                        "x": 24,
-                        "y": 5
+                        "x": 60,
+                        "y": 32
                       },
                       {
-                        "x": 24,
-                        "y": 16
+                        "x": 60,
+                        "y": 68
                       },
                       {
-                        "x": 10,
-                        "y": 16
+                        "x": 40,
+                        "y": 68
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\enemies\\snake\\die-07.png",
+                  "image": "assets\\enemies\\assassin\\die-6.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13904,27 +14670,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 10,
-                        "y": 5
+                        "x": 40,
+                        "y": 32
                       },
                       {
-                        "x": 24,
-                        "y": 5
+                        "x": 60,
+                        "y": 32
                       },
                       {
-                        "x": 24,
-                        "y": 16
+                        "x": 60,
+                        "y": 68
                       },
                       {
-                        "x": 10,
-                        "y": 16
+                        "x": 40,
+                        "y": 68
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\enemies\\snake\\die-08.png",
+                  "image": "assets\\enemies\\assassin\\die-7.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13940,27 +14706,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 10,
-                        "y": 5
+                        "x": 40,
+                        "y": 32
                       },
                       {
-                        "x": 24,
-                        "y": 5
+                        "x": 60,
+                        "y": 32
                       },
                       {
-                        "x": 24,
-                        "y": 16
+                        "x": 60,
+                        "y": 68
                       },
                       {
-                        "x": 10,
-                        "y": 16
+                        "x": 40,
+                        "y": 68
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\enemies\\snake\\die-09.png",
+                  "image": "assets\\enemies\\assassin\\die-8.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13976,27 +14742,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 10,
-                        "y": 5
+                        "x": 40,
+                        "y": 32
                       },
                       {
-                        "x": 24,
-                        "y": 5
+                        "x": 60,
+                        "y": 32
                       },
                       {
-                        "x": 24,
-                        "y": 16
+                        "x": 60,
+                        "y": 68
                       },
                       {
-                        "x": 10,
-                        "y": 16
+                        "x": 40,
+                        "y": 68
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\enemies\\snake\\die-10.png",
+                  "image": "assets\\enemies\\assassin\\die-9.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14012,20 +14778,92 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 10,
-                        "y": 5
+                        "x": 40,
+                        "y": 32
                       },
                       {
-                        "x": 24,
-                        "y": 5
+                        "x": 60,
+                        "y": 32
                       },
                       {
-                        "x": 24,
-                        "y": 16
+                        "x": 60,
+                        "y": 68
                       },
                       {
-                        "x": 10,
-                        "y": 16
+                        "x": 40,
+                        "y": 68
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\enemies\\assassin\\die-10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 40,
+                        "y": 32
+                      },
+                      {
+                        "x": 60,
+                        "y": 32
+                      },
+                      {
+                        "x": 60,
+                        "y": 68
+                      },
+                      {
+                        "x": 40,
+                        "y": 68
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\enemies\\assassin\\die-11.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 40,
+                        "y": 32
+                      },
+                      {
+                        "x": 60,
+                        "y": 32
+                      },
+                      {
+                        "x": 60,
+                        "y": 68
+                      },
+                      {
+                        "x": 40,
+                        "y": 68
                       }
                     ]
                   ]

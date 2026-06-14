@@ -1264,7 +1264,7 @@
       {
         "file": "assets/small-platform.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/small-platform.png\",\"extension\":\".png\"}",
         "name": "assets\\small-platform.png",
         "smoothed": false,
         "userAdded": true
@@ -1272,7 +1272,7 @@
       {
         "file": "assets/large-platform.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/large-platform.png\",\"extension\":\".png\"}",
         "name": "assets\\large-platform.png",
         "smoothed": false,
         "userAdded": true
@@ -2957,6 +2957,984 @@
         "name": "assets\\background\\scifi-lab\\tank-3.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "assets/enemies/drone/fly-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\drone\\fly-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/enemies/drone/fly-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\drone\\fly-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/enemies/drone/fly-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\drone\\fly-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/enemies/drone/fly-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\drone\\fly-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/enemies/drone/fly-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\drone\\fly-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/enemies/drone/fly-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\drone\\fly-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/enemies/drone/fly-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\drone\\fly-6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/enemies/drone/fly-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\drone\\fly-7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/enemies/drone/fly-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\drone\\fly-8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/enemies/drone/fly-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\drone\\fly-9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/enemies/drone/fly-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\drone\\fly-10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/enemies/drone/fly-11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\drone\\fly-11.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/enemies/drone/die-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\drone\\die-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/enemies/drone/die-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\drone\\die-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/enemies/drone/die-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\drone\\die-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/enemies/drone/die-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\drone\\die-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/enemies/drone/die-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\drone\\die-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/enemies/drone/die-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\drone\\die-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/enemies/drone/die-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\drone\\die-6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/enemies/drone/die-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\drone\\die-7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/enemies/drone/die-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\drone\\die-8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/enemies/drone/die-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\drone\\die-9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/enemies/drone/die-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\drone\\die-10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/enemies/drone/die-11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\drone\\die-11.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/enemies/drone/die-12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\drone\\die-12.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/enemies/assassin/walk-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\assassin\\walk-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/enemies/assassin/walk-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\assassin\\walk-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/enemies/assassin/walk-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\assassin\\walk-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/enemies/assassin/walk-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\assassin\\walk-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/enemies/assassin/walk-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\assassin\\walk-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/enemies/assassin/walk-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\assassin\\walk-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/enemies/assassin/walk-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\assassin\\walk-6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/enemies/assassin/walk-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\assassin\\walk-7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/enemies/assassin/walk-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\assassin\\walk-8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/enemies/assassin/walk-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\assassin\\walk-9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/enemies/assassin/die-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\assassin\\die-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/enemies/assassin/die-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\assassin\\die-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/enemies/assassin/die-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\assassin\\die-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/enemies/assassin/die-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\assassin\\die-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/enemies/assassin/die-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\assassin\\die-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/enemies/assassin/die-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\assassin\\die-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/enemies/assassin/die-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\assassin\\die-6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/enemies/assassin/die-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\assassin\\die-7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/enemies/assassin/die-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\assassin\\die-8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/enemies/assassin/die-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\assassin\\die-9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/enemies/assassin/die-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\assassin\\die-10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/enemies/assassin/die-11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\assassin\\die-11.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/tiles/cyber-purp/platform-036.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\cyber-purp\\platform-036.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/cyber-purp/platform-027.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\cyber-purp\\platform-027.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/cyber-purp/platform-030.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\cyber-purp\\platform-030.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/cyber-purp/platform-016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\cyber-purp\\platform-016.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/cyber-purp/platform-077.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\cyber-purp\\platform-077.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/cyber-purp/platform-026.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\cyber-purp\\platform-026.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/cyber-purp/platform-003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\cyber-purp\\platform-003.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/cyber-purp/platform-039.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\cyber-purp\\platform-039.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/cyber-purp/platform-014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\cyber-purp\\platform-014.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/cyber-purp/platform-018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\cyber-purp\\platform-018.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/cyber-purp/platform-009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\cyber-purp\\platform-009.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/cyber-purp/platform-006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\cyber-purp\\platform-006.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/cyber-purp/platform-081.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\cyber-purp\\platform-081.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/cyber-purp/platform-074.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\cyber-purp\\platform-074.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/cyber-purp/platform-087.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\cyber-purp\\platform-087.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/cyber-purp/platform-080.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\cyber-purp\\platform-080.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/cyber-purp/platform-082.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\cyber-purp\\platform-082.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/cyber-purp/platform-093.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\cyber-purp\\platform-093.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/cyber-purp/platform-098.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\cyber-purp\\platform-098.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/cyber-purp/corner-fg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\cyber-purp\\corner-fg.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/cyber-purp/corner-plat.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\cyber-purp\\corner-plat.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/cyber-purp/corner-ground.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\cyber-purp\\corner-ground.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/cyber-purp/corner-bg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\cyber-purp\\corner-bg.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/items/skull3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\items\\skull",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/items/coin3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\items\\coin3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Enemy.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Enemy",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sounds/Magic Fx 7 (1).ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/sounds/Magic Fx 7 (1).ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/factory/corner-bg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\factory\\corner-bg.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/factory/corner-fg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\factory\\corner-fg.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/factory/corner-ground.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\factory\\corner-ground.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/factory/corner-plat.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\factory\\corner-plat.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/factory/platform-003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\factory\\platform-003.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/factory/platform-006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\factory\\platform-006.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/factory/platform-009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\factory\\platform-009.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/factory/platform-014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\factory\\platform-014.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/factory/platform-016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\factory\\platform-016.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/factory/platform-018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\factory\\platform-018.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/factory/platform-026.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\factory\\platform-026.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/factory/platform-027.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\factory\\platform-027.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/factory/platform-036.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\factory\\platform-036.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/factory/platform-039.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\factory\\platform-039.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/factory/platform-074.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\factory\\platform-074.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/factory/platform-077.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\factory\\platform-077.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/factory/platform-080.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\factory\\platform-080.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/factory/platform-081.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\factory\\platform-081.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/factory/platform-082.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\factory\\platform-082.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/factory/platform-087.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\factory\\platform-087.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/factory/platform-093.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\factory\\platform-093.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/factory/platform-098.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\factory\\platform-098.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/neon-desert/corner-bg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\neon-desert\\corner-bg.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/neon-desert/corner-fg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\neon-desert\\corner-fg.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/neon-desert/corner-ground.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\neon-desert\\corner-ground.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/neon-desert/corner-plat.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\neon-desert\\corner-plat.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/neon-desert/platform-003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\neon-desert\\platform-003.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/neon-desert/platform-006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\neon-desert\\platform-006.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/neon-desert/platform-009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\neon-desert\\platform-009.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/neon-desert/platform-014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\neon-desert\\platform-014.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/neon-desert/platform-016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\neon-desert\\platform-016.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/neon-desert/platform-018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\neon-desert\\platform-018.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/neon-desert/platform-026.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\neon-desert\\platform-026.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/neon-desert/platform-027.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\neon-desert\\platform-027.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/neon-desert/platform-036.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\neon-desert\\platform-036.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/neon-desert/platform-039.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\neon-desert\\platform-039.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/neon-desert/platform-074.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\neon-desert\\platform-074.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/neon-desert/platform-077.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\neon-desert\\platform-077.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/neon-desert/platform-080.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\neon-desert\\platform-080.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/neon-desert/platform-081.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\neon-desert\\platform-081.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/neon-desert/platform-082.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\neon-desert\\platform-082.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/neon-desert/platform-087.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\neon-desert\\platform-087.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/neon-desert/platform-093.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\neon-desert\\platform-093.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiles/neon-desert/platform-098.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\neon-desert\\platform-098.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Rating2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Rating2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Rating3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Rating3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Rating4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Rating4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Loser2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Loser2",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },

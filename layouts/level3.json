@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.701678945765722,
+    "zoomFactor": 0.5563102250425905,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -8612,6 +8612,7 @@
         {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "canGrabWithoutMoving": true,
           "xGrabTolerance": 0,
           "canGrabPlatforms": true,
           "yGrabOffset": 12,
@@ -14934,6 +14935,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Coin",
+      "persistentUuid": "8e1ac75e-85f5-46f7-9915-9244208fe758",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -14959,16 +14961,17 @@
       ],
       "animations": [
         {
-          "name": "",
+          "name": "assets\\items\\coin",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\items\\coin.png",
+                  "image": "assets\\items\\coin3",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15046,6 +15049,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Skull",
+      "persistentUuid": "7b8a97aa-4e16-4236-a7d9-2a4db7584f3c",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -15078,16 +15082,17 @@
       ],
       "animations": [
         {
-          "name": "",
+          "name": "assets\\items\\skull",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\items\\skull.png",
+                  "image": "assets\\items\\skull",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15112,6 +15117,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Saw",
+      "persistentUuid": "41a8132d-c03d-4aef-8a52-92d3c862cd79",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -15211,6 +15217,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Spikes",
+      "persistentUuid": "3bb98ce3-4ad3-4a0f-aa33-28eead86eb7d",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [

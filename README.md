@@ -16,4 +16,3 @@ A platformer game made in GDevelop.
 
 All rights reserved.
 
-Please see [ATTRIBUTIONS.md](https://github.com/Genhis/JunglePlatformer/blob/master/ATTRIBUTIONS.md) for a complete list of in-game asset attributions, their licenses and links to original assets.
